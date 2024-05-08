@@ -1,0 +1,12 @@
+cd "C:\Program Files\Oracle\VirtualBox"
+VBoxManage list vms
+VBoxManage natnetwork add --netname NatNetwork --network "192.168.50.0/24" --enable
+VBoxManage natnetwork list
+
+vagrant
+ifconfig
+touch f.txt
+nano f.txt
+cntrl x, y, enter
+ls
+cat f.txt

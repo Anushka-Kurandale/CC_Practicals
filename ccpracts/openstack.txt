@@ -1,0 +1,11 @@
+sudo snap install microstack --beta
+snap list microstack
+sudo microstack init --auto --control
+microstack.openstack --version
+microstack.openstack image list
+microstack.openstack flavor list
+hostname -I
+https://<IP Address>/auth/login/?next=/
+https://<IP>/dashboard || horizon
+
+sudo snap get microstack config.credentials.keystone-password
